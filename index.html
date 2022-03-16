@@ -37,10 +37,18 @@
             <span id="hamburger-menu"></span>
           </button>
           <ul id="menu" role="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Testemunhos</a></li>
-            <li><a href="#">Contato</a></li>
+            <li class="btn-menu-click" onclick="toggleMenuClose()">
+              <a href="#about">Home</a>
+            </li>
+            <li class="btn-menu-click" onclick="toggleMenuClose()">
+              <a href="#services">Serviços</a>
+            </li>
+            <li class="btn-menu-click" onclick="toggleMenuClose()">
+              <a href="#">Testemunhos</a>
+            </li>
+            <li class="btn-menu-click" onclick="toggleMenuClose()">
+              <a href="#">Contato</a>
+            </li>
           </ul>
         </nav>
       </span>
@@ -63,12 +71,12 @@
     <!-- -----------------------  About Me ----------------------- -->
 
     <section id="about">
-      <div>
-        <span>
+      <div id="text-about">
+        <span class="h1">
           <h1>Sobre Mim</h1>
         </span>
-        <span
-          ><p>
+        <span class="p">
+          <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
             minus nemo voluptatibus tempore libero numquam voluptates, corporis,
             iusto amet veniam omnis. Ipsa iste doloribus placeat dignissimos,
@@ -84,6 +92,44 @@
           />
           <img src="assets/images/about/about-debora.png" alt="" />
         </picture>
+      </div>
+    </section>
+
+    <!-- -----------------------  Services ----------------------- -->
+    <section id="services">
+      <div id="text-services">
+        <span class="h1"><h1>Faça sua encomenda</h1></span>
+        <span class="p">
+          <p>Escolha o estilo de desenho</p>
+        </span>
+      </div>
+      <div id="services-box">
+        <div class="container-box">
+          <a href="#">
+            <div class="image">
+              <img src="assets/images/services/DM-style.png" alt="" />
+            </div>
+            <span>
+              <h2>DM Style</h2>
+            </span>
+          </a>
+          <a href="#">
+            <div class="image">
+              <img src="assets/images/services/realistic.png" alt="" />
+            </div>
+            <span>
+              <h2>Realista</h2>
+            </span>
+          </a>
+          <a href="#">
+            <div class="image">
+              <img src="assets/images/services/kawai.png" alt="" />
+            </div>
+            <span>
+              <h2>Kawai</h2>
+            </span>
+          </a>
+        </div>
       </div>
     </section>
 
