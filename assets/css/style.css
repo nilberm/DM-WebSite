@@ -253,8 +253,6 @@ section #img-about img {
 /* ------------ Footer -----------*/
 #footer {
   background: #404040;
-  position: relative;
-  bottom: 0;
 }
 
 section #footer-box {
@@ -295,10 +293,12 @@ section #social-medias .icon-style {
 }
 
 footer {
+  position: relative;
+  bottom: 0;
   background: #000;
   color: #fff;
   text-align: center;
-  height: 4rem;
+  height: 5rem;
   display: flex;
   align-items: center;
 }
@@ -310,6 +310,7 @@ footer p {
 
 footer a {
   color: #fff;
+  text-decoration: underline;
 }
 
 /* ---------- Desktop Version --------------- */
