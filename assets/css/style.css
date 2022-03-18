@@ -199,6 +199,116 @@ section #img-about img {
   margin: 1.75rem 0 7rem 0;
 }
 
+/* ------------ Testimonials -----------*/
+#testimonial-box {
+}
+
+#testimonial-cards {
+  margin: 2rem 1.25rem 5rem 1.25rem;
+  background: #faf0cf;
+  position: relative;
+  top: -10rem;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#background-tes {
+  background: #fadbcf;
+  height: 19rem;
+  display: flex;
+  justify-content: center;
+}
+#background-tes h1 {
+  font-family: "Delius", cursive;
+  font-size: 1.5rem;
+  position: relative;
+  bottom: -5rem;
+}
+
+#cards-img img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  max-height: 20rem;
+}
+
+#cards-text {
+  text-align: justify;
+  margin: 2.5rem 2rem 0 2rem;
+  padding-bottom: 2rem;
+}
+#cards-author {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 2rem 0 0 0;
+}
+
+#cards-author img {
+  width: 3rem;
+  border-radius: 100%;
+  margin-left: 0.7rem;
+}
+
+/* ------------ Footer -----------*/
+#footer {
+  background: #404040;
+}
+
+section #footer-box {
+  margin: 0 4.8rem 0 4.8rem;
+  padding: 2rem 0 2rem 0;
+}
+section #logo-footer {
+  display: flex;
+  justify-content: center;
+}
+section #logo-footer img {
+  width: 100%;
+}
+
+section #social-medias {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+section #social-medias .facebook-footer {
+  background-image: url("assets/images/logo/facebook.svg");
+}
+
+section #social-medias a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+section #social-medias p {
+  color: #fff;
+  position: relative;
+}
+section #social-medias .icon-style {
+  width: 4.2rem;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+footer p {
+  margin: 0 1.25rem 0 1.25rem;
+  line-height: 1.5rem;
+}
+
+footer a {
+  color: #fff;
+}
+
 /* ---------- Desktop Version --------------- */
 
 @media (min-width: 900px) {
@@ -241,12 +351,23 @@ section #img-about img {
     margin: 0 0 0 6.5rem;
     width: 50%;
   }
+  #text-about .h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
   #text-about h1 {
     font-size: 4rem;
+  }
+  #text-about .p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   #text-about p {
     margin-right: 8.125rem;
     text-align: justify;
+    max-width: 30rem;
   }
 
   section #img-about {
@@ -264,4 +385,12 @@ section #img-about img {
   }
 
   /* ------------ Services -----------*/
+
+  #services {
+    margin-top: 10rem;
+  }
+  section #services-box .container-box {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
