@@ -399,4 +399,47 @@ footer a {
     display: flex;
     justify-content: space-evenly;
   }
+
+  /* ------------ Testimonials -----------*/
+  #testimonials-box {
+    display: flex;
+  }
+  #testimonial-cards {
+    display: flex;
+    border-radius: 0;
+    align-items: center;
+    width: 65rem;
+    margin: auto;
+  }
+  #cards-img {
+    width: 40rem;
+    margin: 1.8rem;
+  }
+  #cards-img img {
+    width: 100%;
+    border-radius: 0;
+  }
+  #cards-text {
+    width: 100%;
+    margin-right: 4rem;
+  }
+
+  /* ------------ Footer -----------*/
+  section #social-medias {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  section #social-medias .icon-style {
+    width: auto;
+    margin-right: 1rem;
+  }
+
+  /* ------------ CopyRight -----------*/
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
