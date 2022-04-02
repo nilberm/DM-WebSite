@@ -15,10 +15,9 @@ function toggleMenu(event) {
   }
 }
 
-function toggleMenuClose() {
+window.toggleMenuClose = function () {
   console.log("teste");
-  const nav = document.querySelector("#nav");
   nav.classList.toggle("active-menu");
-}
+};
 
 btnMobile.addEventListener("click", toggleMenu);
